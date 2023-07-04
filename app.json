@@ -2973,6 +2973,69 @@
     },
     {
       "name": {
+        "en": "Xiaomi Light Sensor"
+      },
+      "class": "sensor",
+      "_appSpecific": {
+        "brand": "Xiaomi",
+        "modelID": "GZCGQ11LM",
+        "EAN": "6970504211377"
+      },
+      "capabilities": [
+        "measure_luminance",
+        "alarm_battery",
+        "measure_battery"
+      ],
+      "energy": {
+        "batteries": [
+          "CR2032"
+        ]
+      },
+      "platforms": [
+        "local",
+        "cloud"
+      ],
+      "connectivity": [
+        "zigbee"
+      ],
+      "zigbee": {
+        "manufacturerName": [
+          "XIAOMI",
+          "LUMI"
+        ],
+        "productId": "lumi.sen_ill.agl01",
+        "endpoints": {
+          "1": {
+            "clusters": [
+              0,
+              1,
+              1024
+            ],
+            "bindings": [
+              0,
+              1,
+              1024
+            ]
+          }
+        },
+        "learnmode": {
+          "image": "/drivers/lumi.sen_ill.agl01/assets/learn.svg",
+          "instruction": {
+            "en": "Long press the reset button for more than 5 seconds until the blue light flashes three times",
+            "nl": "Houd de reset knop ingedrukt voor meer dan 5 seconden totdat de blauwe led drie keer knippert",
+            "de": "Halte den Reset Knopf mehr als 3 Sekunden bis das blaue Licht 3 mal blinkt"
+          }
+        }
+      },
+      "images": {
+        "large": "/drivers/lumi.sen_ill.agl01/assets/images/large.png",
+        "small": "/drivers/lumi.sen_ill.agl01/assets/images/small.png"
+      },
+      "settings": [],
+      "id": "lumi.sen_ill.agl01"
+    },
+    {
+      "name": {
         "en": "Motion Sensor P1"
       },
       "class": "sensor",
@@ -4275,7 +4338,7 @@
           }
         },
         "learnmode": {
-          "image": "/drivers/sen_ill.mgl01/assets/learn_human_body.svg",
+          "image": "/drivers/sen_ill.mgl01/assets/learn.svg",
           "instruction": {
             "en": "Long press the reset button for more than 5 seconds until the blue light flashes three times",
             "nl": "Houd de reset knop ingedrukt voor meer dan 5 seconden totdat de blauwe led drie keer knippert",

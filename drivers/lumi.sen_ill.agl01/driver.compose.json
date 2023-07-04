@@ -5,8 +5,8 @@
   "class": "sensor",
   "_appSpecific":{
     "brand": "Xiaomi",
-    "modelID": "GZCGQ01LM",
-    "EAN": "6934177710865"
+    "modelID": "GZCGQ11LM",
+    "EAN": "6970504211377"
   },
   "capabilities": [
     "measure_luminance",
@@ -22,7 +22,7 @@
   "connectivity": [ "zigbee" ],
   "zigbee": {
     "manufacturerName": ["XIAOMI", "LUMI"],
-    "productId": "lumi.sen_ill.mgl01",
+    "productId": "lumi.sen_ill.agl01",
     "endpoints": {
       "1": {
         "clusters": [
